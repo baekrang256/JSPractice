@@ -1,0 +1,9 @@
+//using `?`
+function checkAge(age) {
+    return age > 18 ? true : confirm('Did parents allow you?');
+}
+
+//using `||`
+function checkAge2(age) {
+    return age > 18 || confirm('Did parents allow you?');
+}
